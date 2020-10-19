@@ -11,9 +11,7 @@ const MenuItem = ({ title, imageUrl, id, size, history, linkUrl, match }) => (
             <h1 className="title">{title.toUpperCase()}</h1>
             <span className="subtitle"></span>
         </div>
-    
     </div>
-    
 )
 
 export default withRouter(MenuItem)
